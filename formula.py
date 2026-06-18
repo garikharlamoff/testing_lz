@@ -14,5 +14,5 @@ def err(a,b,c,d,f):
     except(TypeError):
         return "Неверный тип данных"
         
-err(52,42,69,67,169)
+print(err(52,42,69,67,169))
 
